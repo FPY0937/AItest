@@ -1,0 +1,22 @@
+# 主智能研发库不纳入其他节点的真实代码仓
+git-repo-A/
+git-repo-B/
+git-repo-*/
+
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# 编写过程目录不进入本仓库。设计正文在 docs/设计。
+.cursor/
+.specify/
+.archify/
+agent-skills/
+specs/
+agent-l3-grafana.html
+docs/智能体三级视图详细设计.md
+
+# 阶段包不包含代码质量技能的归档副本
+ai-agent/skills/coding/code-quality-skill/archive/
